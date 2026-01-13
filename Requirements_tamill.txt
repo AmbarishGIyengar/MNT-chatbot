@@ -1,0 +1,36 @@
+Requirements(Python Libraries)
+
+# OCR and PDF processing
+pytesseract
+pdf2image
+Pillow
+
+# Text processing
+regex
+
+# Embeddings and vector search
+sentence-transformers
+faiss-cpu
+
+# Numerical utilities
+numpy
+
+
+⚙️ System Requirements (IMPORTANT)
+
+These tools must be installed separately and are not Python packages:
+
+🔹 Tesseract OCR
+
+     Required for OCR
+
+     Tamil language pack (tam) must be enabled
+
+🔹 Poppler
+
+     Required by pdf2image
+
+     Used to convert PDF pages into images before OCR
+
+⚠️ These tools must be added to the system PATH
+or their paths must be provided explicitly in the code.
